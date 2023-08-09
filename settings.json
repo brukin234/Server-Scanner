@@ -3,5 +3,6 @@
 	"nickname": "botgg",
 	"use_api": true,
 	"auto_op": true,
-	"auto_op_nickname": "Zekino"
+	"auto_op_nickname": "Zekino",
+	"api_key": ""
 }
