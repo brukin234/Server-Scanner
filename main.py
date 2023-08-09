@@ -95,7 +95,7 @@ if __name__ == '__main__':
     elif choice == str(2):
         if settings['use_api'] == True:
             data = {
-                'api_key': 'bwAdD4nFHtjJctyd5RWYDQ1Cq3NwRt7a',
+                'api_key': settings['api_key'],
                 'ip': str(settings['server']).split(':')[0],
                 'port': int(str(settings['server']).split(':')[1])
             }
